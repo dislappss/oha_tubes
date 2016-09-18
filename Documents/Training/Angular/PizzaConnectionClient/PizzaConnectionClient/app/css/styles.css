@@ -1,0 +1,177 @@
+body {
+        color: #706f5a;
+        background-image: url("/images/logo.png");
+        background-color:#FFF;
+        background-position: center top;
+        background-repeat:no-repeat;
+        font-size: 16px;
+        margin-top: 20px;
+        font-family:  "Calibri","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container-fixed {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.height20 {
+    height: 20px;
+}
+.height25 {
+    height: 25px;
+}
+
+.height30 {
+    height: 30px;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.height75 {
+    height: 75px;
+}
+
+.height150 {
+    height: 150px;
+}
+
+.height210 {
+    height: 210px;
+}
+
+.height350 {
+    height: 300px;
+}
+
+.height400 {
+    height: 400px;
+}
+
+.width-80-prt {
+    width: 80%;
+}
+
+.fontSize-18 {
+    font-size: 18px;
+}
+
+.fontSize-12 {
+    font-size: 12px;
+}
+
+.decoratedBox {
+    font-size: 16px;
+    padding: 20px;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.rightAligned {
+    text-align: right;
+    padding-right: 18px;
+}
+
+.border-top-0 {
+    border-top:0;
+}
+
+.padding-3 {
+    padding:3px;
+}
+
+.paddingTop-5 {
+    padding-top: 5px;
+}
+
+.paddingTop-15 {
+    padding-top: 15px;
+}
+
+.rightaligned-w60 {
+    width: 60px;
+    text-align: right;
+}
+
+.storeWindowLarge {
+    background-image: url(../images/pizza/bg.jpg);
+    margin-right:20px;
+    overflow:hidden;
+    text-align:center;
+    width:230px;
+    height:260px;     
+}
+
+.storeWindowSmall {
+    background-image: url(../images/pizza/bg.jpg);
+    margin-right:20px;
+    overflow:hidden;
+    text-align:center;
+    width:200px;
+    height:130px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.storeWindowBorder {
+    border: 3px dotted darkgray;
+}
+
+.advertiseText_r25 {
+    color: red;
+    font-size: 25px;
+}
+
+.advertiseText_r20b {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.advertiseText g12b {
+    color: darkgrey;
+    font-size: 12;
+    font-weight: bold;
+}
+
+.cursor_hand { cursor: pointer; }
+
+#box {
+    position: relative;
+    color: white;
+    background-color: red;
+    text-align: center;
+    height: auto;
+    width: 100px;    
+    left: 5px;
+    top: 5px;
+}
+
+#whiteBox {
+    position: relative;
+    background-color: white;
+    height: 47px;
+    width: 110px;    
+    left: 9px;
+    top: 10px;    
+}
+
+#imageBoxSmall {
+    width: 174px;
+    height: 109px;
+}
+
+#fLeft {float: left; width: 200px;}
+#fRight {float: right; width: 200px;}
+#dLeft { float: left; width: 375px;}
+#dRight { float: right; width: 350px; text-align: left;}
+#mLeft { float: left; width: 600px; }
+#mRight { float: right; min-width: 100px; }
+
+#button { display: inline-block; height: 43px; width: 100px;}
+#minibutton { display: inline-block; height: 20px; width: 20px;}
+#longbutton { display: inline-block; height: 30px; width: 300px;}

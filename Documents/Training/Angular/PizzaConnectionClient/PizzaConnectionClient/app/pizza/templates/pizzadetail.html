@@ -1,0 +1,55 @@
+<div *ngIf="pizzaDetail">
+    <div id="dLeft" class="storeWindowLarge height400 storeWindowBorder">
+        <div class="height500"></div>
+        <div>
+            <img src="../images/pizza/{{pizzaDetail.image}}">
+        </div>
+    </div>
+    <div id="dRight">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <span class="advertiseText_r25">
+                            Pizza '{{pizzaDetail.name}}'
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>{{pizzaDetail.size}}</b><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{pizzaDetail.description}}<br><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="advertiseText_r25">
+                            <b>Nur {{pizzaDetail.price}} €</b>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="height75"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type='button'
+                                (click)="addToCart(pizzaDetail)"
+                                icon="fa-check"
+                                pButton label="In den Warenkorb">                                    
+                        </button>
+                        <button type='button'
+                                (click)="historyBack()"
+                                icon="fa-close"
+                                pButton label="Zurück">                                    
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>    
+</div>

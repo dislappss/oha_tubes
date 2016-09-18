@@ -1,0 +1,30 @@
+        <p-dataGrid 
+            [value]="getPizzaList()" 
+            [columns]="3"
+            [paginator]="true"
+            [rows]="9">
+                
+            <template let-pizza>
+                <div class="padding-3">
+                    <p-panel 
+                        [header]="pizza.name"
+                        [paginator]="true"
+                        [style]="{'text-align':'center'}">
+                            
+                        <div class="storeWindowLarge">
+                            <div id="whiteBox">
+                                <div id="box">
+                                    <small>{{pizza.size}}</small><br>
+                                    <b>{{pizza.price}} Euro</b>
+                                </div>
+                            </div>
+                            <img class="cursor_hand" 
+                                 src="../images/pizza/{{pizza.image}}"
+                                 (click)="showDetails(pizza)">
+                            <div>{{pizza.price}} Euro</div>
+                            <hr class="ui-widget-content border-top-0">
+                        </div>
+                    </p-panel>
+                </div>
+            </template>
+        </p-dataGrid>
